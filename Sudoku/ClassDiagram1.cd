@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Sudoku.CellNote">
+    <Position X="11.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>CellNote.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sudoku.RowColor">
+    <Position X="18.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAgAAAA=</HashCode>
+      <FileName>RowColor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sudoku.SudokuCell">
+    <Position X="10.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAwAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAgAAAAAAA=</HashCode>
+      <FileName>SudokuCell.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sudoku.GameControl">
+    <Position X="6.75" Y="5.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAgAABgABAQAAAAAAAAAAAABAEAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>GameControl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Object">
+    <Position X="18.25" Y="0.75" Width="3.25" />
+    <TypeIdentifier />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,29 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:system="clr-namespace:System;assembly=mscorlib"
+                    xmlns:xlinq="clr-namespace:System.Xml.Linq;assembly=System.Xml.Linq">
+
+    <ObjectDataProvider x:Key="AllowedColors" 
+                      ObjectType="{x:Type xlinq:XElement}" MethodName="Parse">
+        <ObjectDataProvider.MethodParameters>
+            <system:String xml:space="preserve">
+<![CDATA[
+      <Colors>
+        <Color Brush="Gold" Name="Gold"/>
+        <Color Brush="BurlyWood" Name="Burly Wood"/>
+        <Color Brush="Gray" Name="Gray"/>
+        <Color Brush="Chocolate" Name="Chocolate"/>
+        <Color Brush="Coral" Name="Coral"/>
+        <Color Brush="Crimson" Name="Crimson"/>
+        <Color Brush="Cyan" Name="Cyan"/>
+        <Color Brush="DeepPink" Name="Deep Pink"/>
+        <Color Brush="DeepSkyBlue" Name="Deep Sky Blue"/>
+     
+      </Colors>
+        ]]>
+      </system:String>
+            <xlinq:LoadOptions>PreserveWhitespace</xlinq:LoadOptions>
+        </ObjectDataProvider.MethodParameters>
+    </ObjectDataProvider>
+
+</ResourceDictionary>
